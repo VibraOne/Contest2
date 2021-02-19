@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ecran de connexion</title>
+        <link href=connexion.css rel=stylesheet>
+    </head>
+    <main>
+    <form action="contact.php" method="get">
+    <label class=ligne1 for="nom"><strong>Nom</strong></label>
+    <label class=ligne1 id=second for="prenom"><strong>Prénom*</strong></label><br>
+
+    <input class=ligne2 type="text" name="nom" id="nom" placeholder="" required>
+    <input class=ligne2 type="text" name="prenom" id="prenom" placeholder="" required><br><br>
+
+    <label class=ligne3 for="date"><strong>Date de naissance</strong></label>
+    <label class=ligne3 id=third for="email"><strong>Adresse email*</strong></label>
+    <label class=ligne3 id=fourth for="nom"><strong>Sexe*</strong></label><br>
+
+
+    <input class=ligne4 type="text" name="date" id="date" placeholder="">
+    <input class=ligne4 type="text" name="email" id="email" placeholder="" required>
+
+    <input type=radio id=F name=sexe value=F required>
+    <label for=F>F</label>
+    <input type=radio id=M name=sexe value=M required>
+    <label for=M>M</label><br><br><br>
+
+
+    <label class=ligne3 for="Adresse"><strong>Adresse postale</strong></label><br>
+    <textarea class=ligne3 id="Adresse" name="Adresse" placeholder=""></textarea><br><br>
+
+    <input class=ligne3 type="checkbox" id="newsletter" name=newsletter value="newsletter">
+    <label for="newsletter">Acceptez-vous de recevoir des emails ?</label><br><br><br>
+
+    <input class=envoyer type="submit" value="Envoyer !">
+    </form>
+    </main>
+</html>

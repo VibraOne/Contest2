@@ -1,0 +1,47 @@
+html{
+    background-image: url("fond.jpg");
+    background-size: 1900px;
+}
+
+.ligne1{
+    margin-left: 20px;
+    float:left;
+}
+.ligne2{
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    float:left;
+    width: 700px;
+}
+#second{
+    margin-left: 690px;
+}
+#third{
+    margin-left:355px ;
+}
+.ligne3{
+    margin-left:20px;
+}
+.ligne4{
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    float:left;
+    width:450px;
+}
+#Adresse{
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px 5px 5px 5px;
+    height: 300px;
+    width:1430px;
+}
+.envoyer{
+    margin-left:20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #2588DB;
+}
+#fourth{
+    margin-left:355px ;
+}
